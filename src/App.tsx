@@ -77,7 +77,7 @@ const App = () => {
         <h1>QuizTime</h1>
         {gameOver || userAnswers.length === TOTAL_QUESTIONS ? (
           <div>
-            <QuizControls />
+            
             <button className="start" onClick={startTrivia}>
               Start
             </button>
